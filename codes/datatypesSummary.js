@@ -31,3 +31,25 @@ const myFunction = function name(params) {
 console.log(typeof null);//object
 console.log(typeof myFunction);//function
 
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Stack memory(Primitive) It gives a copy of variable
+// Heap memory(Non-Primitive) It gives reference
+
+let myYoutubeName = "MargdarshanJee"
+let anotherName = myYoutubeName
+console.log(anotherName);
+
+let userOne = {
+    email:"abc@google.com",
+    upi: " abx@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "abwf@google.com"
+console.log(userOne.email, userTwo.email);
+
+
+
