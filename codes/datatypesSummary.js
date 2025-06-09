@@ -52,4 +52,4 @@ userTwo.email = "abwf@google.com"
 console.log(userOne.email, userTwo.email);
 
 
-
+// echmascript and mdn are official documentation of javascript
