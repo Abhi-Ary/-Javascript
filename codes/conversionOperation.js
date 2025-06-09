@@ -1,10 +1,10 @@
-let score = "abhishek"
-// console.log(typeof score);
-// console.log(typeof(score));
+let score = 25;
+// console.log(typeof score); both are same
+// console.log(typeof(score)); both are same
 
 let valueInNumber = Number(score)
 // console.log(valueInNumber);
-// console.log(typeof valueInNumber);
+// console.log(typeof valueInNumber); it always be a number
 
 // "33" => 33
 // "33abc" => NaN(not a number)
