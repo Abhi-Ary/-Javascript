@@ -53,3 +53,5 @@ console.log(userOne.email, userTwo.email);
 
 
 // echmascript and mdn are official documentation of javascript
+
+// There are two types of memory Stack(Primitive)=>it gives a copy and Heap(Non-Primitive)=>it gives the reference of original value
