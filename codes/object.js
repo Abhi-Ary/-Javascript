@@ -1,6 +1,6 @@
-// singleton
-// Object.create()
-// Object literals(key-value pair)
+// singleton it means isse unique object banta hai
+// Object.create() This is one of the method to create object by constructor
+// Object literals(key-value pair) multiple instance create hota hai this is another method to create object key-value pair
 
 const mySym = Symbol("key1")
 const jsUser = {
@@ -11,7 +11,7 @@ const jsUser = {
     location: "Dehradun",
     email: "abc@gmail.com",
     isLoggedIn: false,
-    laseLoginDays: ["Monday", "Saturday"]
+    lastLoginDays: ["Monday", "Saturday"]
 }
 
 // console.log(jsUser["full name"]);
@@ -20,7 +20,7 @@ const jsUser = {
 
 // console.log(jsUser["email"]);
 
-// Object.freeze(jsUser)
+// Object.freeze(jsUser) lock kar dena
 jsUser.email = "abse@gmail.com"
 // console.log(jsUser["email"]);
 // console.log(jsUser);
