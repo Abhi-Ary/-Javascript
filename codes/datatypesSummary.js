@@ -35,7 +35,7 @@ console.log(typeof myFunction);//function
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // Stack memory(Primitive) It gives a copy of variable
-// Heap memory(Non-Primitive) It gives reference
+// Heap memory(Non-Primitive) It gives reference of original value
 
 let myYoutubeName = "MargdarshanJee"
 let anotherName = myYoutubeName

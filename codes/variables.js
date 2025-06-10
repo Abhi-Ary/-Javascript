@@ -1,4 +1,4 @@
-const accountId = 1349549 // When i make sure that the value of variable can't chage in future then it will be declared by the const keyword
+const accountId = 1349549 // When i make sure that the value of a variable can't chage in future then it will be declared by the const keyword
 let accountEmail = "abhshek@google.com" // But when i make sure that the value of a variable will be change in future then it will be declare by the let keyword
 var accountPassword = "4848y8u"
 accountCity = "Dehradun" // not recommended
