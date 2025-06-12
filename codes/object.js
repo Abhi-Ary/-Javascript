@@ -25,13 +25,76 @@ jsUser.email = "abse@gmail.com"
 // console.log(jsUser["email"]);
 // console.log(jsUser);
 jsUser.greeting = function(){
-    console.log("Hello Js User!");
+    // console.log("Hello Js User!");
 }
 jsUser.greetingTwo = function(){
-    console.log(`Hello Js User!, ${this["full name"]}`);
+    // console.log(`Hello Js User!, ${this["full name"]}`);
 }
-console.log(jsUser.greeting());
-console.log(jsUser.greetingTwo());
+// console.log(jsUser.greeting());
+// console.log(jsUser.greetingTwo());
+
+// ********************************* Object Next Part ********************************
+
+// const tinderUser = new Object() //singleton object
+const tinderUser = {} // non-singleton object
+
+tinderUser.id = "123abc"
+tinderUser.name = "God"
+tinderUser.isLoggedIn = false
+
+// console.log(tinderUser);
+
+const regularUser = {
+    email: "abc@gmail.com",
+    fullname: {
+        userfullname: {
+            firstname: "Abhishek",
+            lastname: "Kumar"
+        }
+    }
+}
+// console.log(regularUser.fullname.userfullname.firstname); chainign object
+
+const obj1 = {1: "a", 2: "b"}
+const obj2 = {3: "a", 4: "b"}
+// const obj3 = {obj1, obj2} //First method to join two object rarely used
+
+// const obj3 = Object.assign({},obj1, obj2)
+
+const obj3 = {...obj1, ...obj2} //spread operator mostly used it 
+// console.log(obj3);
+
+// Database se array of object aate hai
+
+const users = [
+    {
+        id: 1,
+        email: "bjdh@gmail.com"
+    },
+
+    {
+        id: 1,
+        email: "bjdh@gmail.com"
+    },
+
+    {
+        id: 1,
+        email: "bjdh@gmail.com"
+    }
+]
+users[1].email
+console.log(tinderUser);
+console.log(Object.keys(tinderUser)); // Iske outputValue ki data type array hoti hai
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+
+
+
+
 
 
 
