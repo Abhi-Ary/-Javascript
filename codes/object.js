@@ -83,16 +83,38 @@ const users = [
     }
 ]
 users[1].email
-console.log(tinderUser);
-console.log(Object.keys(tinderUser)); // Iske outputValue ki data type array hoti hai
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser)); // Iske outputValue ki data type array hoti hai
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
-
-
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
+// ********************** Destructuring of object *************************
+const course = {
+    coursename: "English",
+    price: "999",
+    courseInstructor: "Abhishek Sir"
+}
+
+// course.courseInstructor
+const {courseInstructor: instructor} = course  // Kahi se agar value extract karni ho toh aise karenge isme hum apne according name bhi dal sakte hai
+console.log(instructor);
+
+// json(javascript object notation) ke under key and value dono string hota hai
+// {
+//     "name": "abhishek",
+//     "rollNo": "2124430",
+//     "subject": "English"
+// // }
+
+
+[
+    {},
+    {},
+    {}
+]
 
 
 
